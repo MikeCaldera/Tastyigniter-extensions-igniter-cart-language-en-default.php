@@ -91,7 +91,7 @@ return [
     'alert_no_search_query' => 'Please type in a zipcode or address to check if we can deliver to you.',
     'alert_location_closed' => 'Sorry, you can\'t place an order now, we are currently closed. Please come back later during opening hours.',
     'alert_min_delivery_order_total' => 'We apologize for the inconvenience, but unfortunately, your order total falls below the required minimum of %s. Please add more items to your order to meet the minimum.',
-	'alert_min_order_total' => 'There is a minimum order amount that must be met for delivery. Please add more items to your cart to meet the minimum order total of %s.',
+    'alert_min_order_total' => 'There is a minimum order amount that must be met for delivery. Please add more items to your cart to meet the minimum order total of %s.',
     'alert_coupon_removed' => 'Your coupon has been removed successfully.',
     'alert_coupon_applied' => 'Your coupon has been applied successfully.',
     'alert_coupon_invalid' => 'Please enter a valid coupon.',
@@ -166,7 +166,7 @@ return [
 
         'button_agree_terms' => 'I Agree',
 
-   		'error_covered_area' => 'This restaurant currently does not deliver to your address',
+   	'error_covered_area' => 'This restaurant currently does not deliver to your address',
         'error_delivery_less_current_time' => 'The %s Time can not be less than current time!',
         'error_invalid_payment' => 'The selected payment is invalid, please contact us',
         'error_email_exists' => 'An account exists with this email address. Please login to continue or use a different email address',
