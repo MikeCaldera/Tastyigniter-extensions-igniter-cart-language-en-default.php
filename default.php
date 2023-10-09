@@ -91,7 +91,7 @@ return [
     'alert_no_search_query' => 'Please type in a zipcode or address to check if we can deliver to you.',
     'alert_location_closed' => 'Sorry, you can\'t place an order now, we are currently closed. Please come back later during opening hours.',
     'alert_min_delivery_order_total' => 'We apologize for the inconvenience, but unfortunately, your order total falls below the required minimum of %s. Please add more items to your order to meet the minimum.',
-    'alert_min_order_total' => 'There is a minimum order amount that must be met for delivery. Please add more items to your cart to meet the minimum order total of %s.',
+	'alert_min_order_total' => 'There is a minimum order amount that must be met for delivery. Please add more items to your cart to meet the minimum order total of %s.',
     'alert_coupon_removed' => 'Your coupon has been removed successfully.',
     'alert_coupon_applied' => 'Your coupon has been applied successfully.',
     'alert_coupon_invalid' => 'Please enter a valid coupon.',
@@ -166,23 +166,22 @@ return [
 
         'button_agree_terms' => 'I Agree',
 
-   	'error_covered_area' => 'This restaurant currently does not deliver to your address',
+   		'error_covered_area' => 'This restaurant currently does not deliver to your address',
         'error_delivery_less_current_time' => 'The %s Time can not be less than current time!',
         'error_invalid_payment' => 'The selected payment is invalid, please contact us',
         'error_email_exists' => 'An account exists with this email address. Please login to continue or use a different email address',
   
-
         'alert_no_menu_to_order' => 'Please add some menu items before you checkout!',
         'alert_no_selected_local' => 'Please select your local restaurant',
         'alert_location_closed' => 'Sorry, you can\'t place an order now, we are currently closed. Please come back later during our opening times.',
         'alert_outside_hours' => 'The selected time is outside our %s hours',
         'alert_customer_not_logged' => 'Almost there! Please login or register to complete checkout.',
         'alert_delivery_area_changed' => 'Your delivery area has changed. Please confirm the delivery cost.',
-  
-
+ 
         'activity_order_created_title' => 'New order placed',
         'activity_order_created' => '<b>:properties.full_name</b> created an order.',
     ],
+
     'orders' => [
         'component_title' => 'Account Orders Component',
         'component_desc' => 'List account orders',
@@ -195,7 +194,8 @@ return [
         'text_leave_review' => 'Leave review',
         'text_no_payment' => 'No Payment',
         'text_login_to_view_more' => 'For more information about your order, please create an account or login.',
-
+		'text_title_cancel' => 'Cancel Order',
+    
         'column_id' => 'Order no.',
         'column_status' => 'Status',
         'column_delivery' => 'Delivery',
@@ -212,12 +212,14 @@ return [
 
         'button_order' => 'Place New Order',
         'button_reorder' => 'Reorder',
-        'button_cancel' => 'Cancel',
+        'button_cancel' => 'Cancel order',
         'button_view_order' => 'View/Reorder',
         'button_back' => 'Back',
-
+		'label_cancel_reason' => 'Reason for cancellation',
+    
         'alert_reorder_success' => 'You have successfully added the menus from order ID %s to your order.',
         'alert_cancel_success' => 'Order successfully canceled.',
-        'alert_cancel_failed' => 'Unable to cancel order, please contact us.',
+        'alert_cancel_failed' => 'Unable to cancel. Order is already in preparation. Please contact us for any concerns or changes.',
+
     ],
 ];
